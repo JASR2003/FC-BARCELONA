@@ -137,6 +137,259 @@ figure.logo{
     padding: 10px 40px;
 }
 
+.plantilla-foto {
+    float: right;
+}
+
+.plantilla-foto img {
+    width: 700px;
+    margin-top: 200px;
+}
+
 .Palmares {
     padding: 10px 40px;
+}
+
+.trofeo-foto {
+    float: right;
+}
+
+.trofeo-foto img {
+    width: 600px;
+    margin-top: 100px;
+}
+
+/* pagina general */
+
+@media screen and (max-width: 1279px) {
+h2{
+    font-size: 22px;
+}
+
+p{
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.plantilla-foto img {
+    width: 600px;
+    margin-top: 180px;
+}
+
+.trofeo-foto img {
+    width: 550px;
+    margin-top: 80px;
+}
+
+}
+
+@media screen and (max-width: 1023px) {
+
+.logo img{
+    width:220px;
+    height:80px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.navigation ul li a{
+    padding: .5rem .8rem;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 12px;
+}
+
+li {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.plantilla-foto img {
+    width: 400px;
+    margin-top: 220px;
+}
+
+.trofeo-foto img {
+    width: 400px;
+    margin-top: 80px;
+}
+
+}
+
+@media screen and (max-width: 799px) {
+    
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.navigation{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation ul{
+    display: none;
+}
+
+.navigation ul.show{
+    display: block;
+}
+
+.navigation ul li{
+    display: block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: .5rem 0rem;
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 11.5px;
+}
+
+li {
+    font-size: 11.5px;
+    line-height: 22px;
+}
+
+.logo img{
+    width:200px;
+    height:70px;
+    margin-left: -40px;
+}
+
+.foto-laporta img {
+    width: 250px;
+}
+
+.foto-koeman img {
+    width: 190px;
+}
+
+.foto-camp-nou img {
+    width: 380px;
+}
+
+}
+
+@media screen and (max-width: 760px) {
+
+.Laporta {
+    display: initial;
+}
+
+.foto-laporta img {
+    width: 300px;
+    margin-left: -20px;
+}
+
+.Koeman {
+    display: initial;
+}
+
+.foto-koeman img {
+    width: 190px;
+}
+
+.camp-nou {
+    display: initial;
+}
+
+.foto-camp-nou img {
+    margin-left: -20px;
+    width: 300px;
+}
+
+.plantilla-foto {
+    float: none;
+}
+
+.plantilla-foto img {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+.trofeo-foto {
+    float: none;
+}
+
+.trofeo-foto img {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+}
+
+@media screen and (max-width: 424px) {
+
+.foto-laporta img {
+    width: 250px;
+}
+
+.foto-koeman img {
+    width: 150px;
+}
+
+.foto-camp-nou img {
+    margin-left: -20px;
+    width: 250px;
+}
+
+.plantilla-foto img {
+    width: 250px;
+}
+
+.trofeo-foto img {
+    width: 250px;
+}
+}
+
+@media screen and (max-width: 374px) {
+.foto-laporta img {
+        width: 220px;
+    margin-left: -30px;
+}
+
+.foto-camp-nou img {
+    margin-left: -30px;
+    width: 220px;
+}
+
+.plantilla-foto img {
+    width: 220px;
+    margin-left: -30px;
+}
+
+.trofeo-foto img {
+    width: 220px;
+    margin-left: -30px;
+}
 }
