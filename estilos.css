@@ -93,8 +93,14 @@ figure.logo{
     padding: 100px 40px 0 40px;
 }
 
+
 .Presidente-Entrenador {
     padding: 10px 40px;
+}
+
+#Presidente-Entrenador {
+    margin-top: -150px;
+    padding-top: 150px;
 }
 
 .Laporta {
@@ -120,6 +126,11 @@ figure.logo{
     padding: 10px 40px;
 }
 
+#Estadio {
+    margin-top: -150px;
+    padding-top: 150px;
+}
+
 .camp-nou {
     display: flex;
     justify-content: space-around;
@@ -133,8 +144,18 @@ figure.logo{
     padding: 10px 40px;
 }
 
+#Himno {
+    margin-top: -150px;
+    padding-top: 150px;
+}
+
 .Temporada {
     padding: 10px 40px;
+}
+
+#Temporada {
+    margin-top: -150px;
+    padding-top: 150px;
 }
 
 .plantilla-foto {
@@ -148,6 +169,11 @@ figure.logo{
 
 .Palmares {
     padding: 10px 40px;
+}
+
+#Palmares {
+    margin-top: -150px;
+    padding-top: 150px;
 }
 
 .trofeo-foto {
@@ -233,7 +259,7 @@ li {
     align-items: center;
     flex-wrap: wrap;
     margin-top: -10px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
 .navigation{
@@ -346,9 +372,44 @@ li {
     margin-left: -20px;
 }
 
+#Presidente-Entrenador {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+#Estadio {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+#Himno {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+#Temporada {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+#Palmares {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+
 }
 
 @media screen and (max-width: 424px) {
+
+h2{
+    font-size: 16px;
+}
+
+p{
+    font-size: 11px;
+}
+
+li {
+    font-size: 11px;
+    line-height: 22px;
+}
 
 .foto-laporta img {
     width: 250px;
