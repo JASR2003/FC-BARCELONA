@@ -13,5 +13,15 @@ jQuery("document").ready(function($){
             menu.addClass("show");
         }
     });
+    menu.click(function() {
+
+        if( menu.hasClass("show")){
+
+            menu.removeClass("show");
+        } else{
+
+            menu.addClass("show");
+        }
+    });
 
 });
